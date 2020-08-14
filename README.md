@@ -10,6 +10,7 @@ $ python generator.py Book 'int id' 'String name' 'float price'
 
 
 class Book{
+
         private int id;
         private String name;
         private float price;
