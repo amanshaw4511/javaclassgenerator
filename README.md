@@ -7,6 +7,8 @@ $ python generator.py className 'type1 var1' 'type2 var2' 'type3 var3'
 Example :
 
 $ python generator.py Book 'int id' 'String name' 'float price'
+
+
 class Book{
         private int id;
         private String name;
