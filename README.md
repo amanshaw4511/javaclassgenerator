@@ -27,33 +27,28 @@ class Employee{
                 this.name = name;
                 this.salary = salary;
         
-=======
 ## usage
 $ python generator.py className 'type1 var1' 'type2 var2' 'type3 var3' 
 
 Example :
 
-$ python generator.py Book 'int id' 'String name' 'float price'
+$ python generator.py -c Employee -vg 'int id' -vcgs 'String name' -vcgs 'double salary'
 
-
-class Book{
-
+class Employee{
         private int id;
         private String name;
-        private float price;
+        private double salary;
 
         //constructor
-        public Book(int id, String name, float price ){
-                this.id = id;
+        public Employee(String name, double salary ){
                 this.name = name;
-                this.price = price;
->>>>>>> af875bc914430a2925d81bc3f53b4c423425ad48
+                this.salary = salary;
+        
         }
 
         //getters
         public int getId(){
                  return this.id;
-<<<<<<< HEAD
         
         }
         public String getName(){
@@ -76,25 +71,3 @@ class Book{
         }
 
 }
-
-=======
-        }
-        public String getName(){
-                 return this.name;
-        }
-        public float getPrice(){
-                 return this.price;
-        }
-
-        //setters
-        public void setId(int id){
-                 this.id = id;
-        }
-        public void setName(String name){
-                 this.name = name;
-        }
-        public void setPrice(float price){
-                 this.price = price;
-        }
-}
->>>>>>> af875bc914430a2925d81bc3f53b4c423425ad48
