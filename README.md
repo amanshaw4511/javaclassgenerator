@@ -1,11 +1,9 @@
 # javaclassgenerator
-this python script is used to create java class with constructor, getters and setters
+#### this python script is used to create java class with constructor, getters and setters
 
-<<<<<<< HEAD
+## usage
 
-# usage
-
-$ python generator.py -c 'className' -v[cgs] 'type1 var1' -v[cgs] 'type2 var2'
+> $ python generator.py -c 'className' -v[cgs] 'type1 var1' -v[cgs] 'type2 var2'
 
 -c      : class 
 -v      : variable
@@ -13,27 +11,11 @@ $ python generator.py -c 'className' -v[cgs] 'type1 var1' -v[cgs] 'type2 var2'
 -g      : getter (optional)
 -s      : setter (optional)
 
-## example
+## example       
 
-$ python generator.py -c Employee -vg 'int id' -vcgs 'String name' -vcgs 'double salary'
+> $ python generator.py -c Employee -vg 'int id' -vcgs 'String name' -vcgs 'double salary'
 
-class Employee{
-        private int id;
-        private String name;
-        private double salary;
-
-        //constructor
-        public Employee(String name, double salary ){
-                this.name = name;
-                this.salary = salary;
-        
-## usage
-$ python generator.py className 'type1 var1' 'type2 var2' 'type3 var3' 
-
-Example :
-
-$ python generator.py -c Employee -vg 'int id' -vcgs 'String name' -vcgs 'double salary'
-
+'''
 class Employee{
         private int id;
         private String name;
@@ -71,3 +53,4 @@ class Employee{
         }
 
 }
+'''
